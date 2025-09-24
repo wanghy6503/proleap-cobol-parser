@@ -114,6 +114,14 @@ for (final io.proleap.cobol.asg.metamodel.CompilationUnit compilationUnit : prog
 Where to look next
 ------------------
 
+- [Docs index](docs/index.md)
+- [Getting Started](docs/getting-started.md)
+- [Parser Runner](docs/parser-runner.md)
+- [Preprocessor](docs/preprocessor.md)
+- [Parameters](docs/parameters.md)
+- [Visitors](docs/visitors.md)
+- [Metamodel overview](docs/metamodel.md)
+- [API Reference (generate locally)](docs/api)
 - [ANTLR4 COBOL grammar](src/main/antlr4/io/proleap/cobol/Cobol.g4)
 - [ANTLR4 COBOL preprocessor grammar](src/main/antlr4/io/proleap/cobol/CobolPreprocessor.g4)
 - [Unit test code examples](src/test/java/io/proleap/cobol/asg/data/workingstorage)
@@ -192,6 +200,13 @@ $ mvn clean install
 
 ```
 $ mvn clean test
+```
+
+### Generate API docs (Javadoc)
+
+```
+$ mvn -DskipTests javadoc:javadoc
+$ mkdir -p docs && rm -rf docs/api && cp -r target/site/apidocs docs/api
 ```
 
 
