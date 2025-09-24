@@ -1,6 +1,35 @@
 ProLeap ANTLR4-based parser for COBOL
 =====================================
 
+## 📚 Comprehensive Documentation
+
+This repository now includes complete API documentation and usage examples:
+
+- **[🚀 Getting Started Guide](GETTING_STARTED.md)** - Quick start tutorial with step-by-step examples
+- **[📖 Complete API Documentation](API_DOCUMENTATION.md)** - Comprehensive API reference with detailed examples
+- **[💡 Usage Examples](EXAMPLES.md)** - Extensive collection of practical code examples
+- **[⚡ Quick Reference](QUICK_REFERENCE.md)** - Essential patterns and configuration cheat sheet
+
+## ✨ Key Features
+
+- **Multiple COBOL Dialects**: Support for ANSI-85, Micro Focus, and IBM OS/VS
+- **Flexible Source Formats**: Fixed, Variable, and HP Tandem formats
+- **Complete ASG**: Full Abstract Syntax Graph representation of COBOL programs
+- **COPY Book Support**: Automatic processing of COPY statements and includes
+- **Error Tolerance**: Configurable error handling for partial parsing
+- **High Performance**: Optimized for large codebases and batch processing
+
+## 🎯 Use Cases
+
+- **Static Code Analysis**: Extract metrics and analyze COBOL programs
+- **Code Migration**: Convert between different COBOL dialects and formats
+- **Documentation Generation**: Auto-generate program documentation
+- **Dependency Analysis**: Understand relationships between programs
+- **Quality Assurance**: Validate COBOL code standards and practices
+- **Legacy System Modernization**: Analyze and transform legacy COBOL codebases
+
+## Overview
+
 This is a **COBOL parser** based on an [ANTLR4 grammar](src/main/antlr4/io/proleap/cobol/Cobol.g4), 
 which generates an **Abstract Syntax Tree** (AST) and **Abstract Semantic Graph** (ASG) for COBOL code.
 The AST represents plain COBOL source code in a syntax tree structure.
